@@ -3,9 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-ul{
-    list-style: none;
+
+h1{
+    color: white !important;
 }
-li{
-    width: 10%;
+.numeri{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    margin: 10px;
+}
+.square{
+    width: 178px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-blue{
+    background-color: #083B4C;
 }
