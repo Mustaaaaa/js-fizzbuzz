@@ -18,9 +18,9 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 
 
 /* ciclo che stampi in console i numeri da 1 a 100 */
-let n = 101;
+let n = 100;
 
-for (let i = 0; i < n; ++i) {
+for (let i = 0; i <= n; ++i) {
 	/* per i multipli di 3 stampi “Fizz” al posto del numero*/
 	if (i % 3 == 0){
 		console.log("fizz")
@@ -30,7 +30,7 @@ for (let i = 0; i < n; ++i) {
 		console.log("buzz")
 	}
 	/* Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz” al posto del numero */
-	else if((i % 3 == 0) && (i % 5 == 0)){
+	else if(i%3 === 0 && i%5 === 0){
 		console.log("fizzbuzz")
 	}
 	else {
